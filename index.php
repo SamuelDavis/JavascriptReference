@@ -4,7 +4,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title></title>
         <?php
-            $inject_script = "(function() { var s = document.createElement('script'); if(document.getElementById('bookmarklet') === null) { s.id = 'bookmarklet'; s.src = 'http://localhost/Bookmarklet/booklet.js'; document.body.appendChild(s); } else alert('Script already exists!'); })();";
+            // http://www.minifyjavascript.com/ can be used to minify the link_dev.js
+            $inject_script = "(function(){var s=document.createElement('script');if(document.getElementById('bookmarklet')===null){s.id='bookmarklet';s.src='http://localhost:8888/myStuff/bookmarklet/booklet.js';document.body.appendChild(s)}else alert('Script already exists!')})();";
         ?>
     </head>
     <body>
