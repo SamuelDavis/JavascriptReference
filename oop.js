@@ -92,6 +92,7 @@ function Child(parentParam1, childParam1) {
 	console.log(this.property1); //Was the variable set in the parent constructor?
 
 	/* Initialize properties unique to the child */
+	console.log("TYPEOF = " + typeof childParam1);
 	this.childProperty = childParam1;
 }
 
