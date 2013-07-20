@@ -37,7 +37,7 @@ include an external script (in this case, script.js).
         */
         var bM = document.createElement("script");
         bM.id = "bm_src";
-        bM.src = "http://localhost:8888/myStuff/bookmarklet/script.js";
+        bM.src = "http://localhost:8888/myStuff/JavascriptReference/bookmarklet/script.js";
         document.body.appendChild(bM);
         console.log("Added script!");
     }, 250);
