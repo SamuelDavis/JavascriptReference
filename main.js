@@ -99,4 +99,16 @@ $(document).ready(function() {
 	*/
 	test.setA(12);
 	console.log(test); //Because of the typechecking, test.a's value didn't change
+
+	/*
+	LOOPING EXAMPLE
+	*/
+
+	/*
+	Create a new instance of the loop. It's constructor accepts a waitTime
+	-- how long to wait between ticking (calling the update function).
+	*/
+	var loop = new Loop(500);//Wait for a half-second before advancing the application
+	//The start method accepts an optional stopTime parameter defining how long the application should run.
+	loop.start(2000);//A loop ticking every half second for two seconds will tick 4 times.
 });
