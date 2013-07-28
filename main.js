@@ -103,6 +103,7 @@ $(document).ready(function() {
 	/*
 	LOOPING EXAMPLE
 	*/
+	utility.consoleHeader("LOOPING");
 
 	/*
 	Create a new instance of the loop. It's constructor accepts a waitTime
